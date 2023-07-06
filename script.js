@@ -5,7 +5,7 @@ function generatePassword() {
   var numericChars = "0123456789";
   var specialChars = "!@#$%^&*";
 
-  var passwordLength = parseInt(prompt("Enter the desired length of the password (between 8 and 128 characters):"));
+  var passwordLength = parseInt(prompt("Pick a number from 8 to 128."));
 
 
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
