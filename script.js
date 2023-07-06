@@ -40,8 +40,4 @@ function generatePassword() {
 
 
   document.getElementById("passwordTextbox").value = password;
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
